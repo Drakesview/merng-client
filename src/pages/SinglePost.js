@@ -1,6 +1,5 @@
 import React, { useContext, useState, useRef } from "react";
 import { gql, useMutation, useQuery } from "@apollo/client";
-import { FETCH_POSTS_QUERY } from "../util/graphql";
 import {
   Button,
   Card,

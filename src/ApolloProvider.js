@@ -2,7 +2,6 @@ import React from "react";
 import App from "./App";
 import {
   ApolloClient,
-  HttpLink,
   ApolloProvider,
   InMemoryCache,
   createHttpLink
